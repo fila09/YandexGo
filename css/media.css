@@ -1,0 +1,206 @@
+@media (max-width: 375px) {
+   [class*="__container"] {
+      max-width: 343px;
+   }
+   .main {
+      padding-top: 32px;
+      padding-bottom: 0px;
+   }
+   .main__logo {
+      max-width: 112px;
+      margin-bottom: 27px;
+   }
+   .main__logo img {
+      width: 100%;
+   }
+   .main__title {
+      margin-bottom: 24px;
+      max-width: 200px;
+      font-size: 36px;
+      letter-spacing: -0.72px;
+   }
+   .main__text {
+      margin-bottom: 0px;
+      max-width: 311px;
+      font-size: 18px;
+   }
+   .price-1 {
+      padding: 1px 10px;
+   }
+   .price-2 {
+      bottom: -5px;
+      right: 90px;
+      font-size: 13px;
+   }
+   .main__button {
+      position: fixed;
+      bottom: 20px;
+      left: 30px;
+      padding: 18px 72px;
+      font-size: 18px;
+      z-index: 10;
+   }
+   .main__image-1 {
+      max-width: 340px;
+      position: static;
+   }
+   .main__image-1 img {
+      max-width: 100%;
+   }
+   .main__image-2 {
+      position: absolute;
+      max-width: 85px;
+      top: 440px;
+      right: 190px;
+   }
+   .main__image-2 img {
+      max-width: 100%;
+   }
+   .page__sharing {
+      padding-top: 45px;
+      padding-bottom: 68px;
+   }
+   .sharing__title {
+      max-width: 311px;
+      margin-bottom: 33px;
+      font-size: 32px;
+      letter-spacing: -0.64px;
+   }
+   .sharing__items {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 27px;
+      column-gap: 0px;
+   }
+   .sharing__item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 22px;
+      max-width: 311px;
+      font-size: 16px;
+   }
+   .sharing__item img {
+      max-width: 75px;
+      object-fit: contain;
+      margin-bottom: 0;
+   }
+   .item-text {
+      max-width: 212px;
+   }
+   .page__vip {
+      padding-top: 0px;
+      padding-bottom: 50px;
+   }
+   .vip__title {
+      max-width: 300px;
+      margin-bottom: 20px;
+      font-size: 32px;
+      letter-spacing: -0.64px;
+   }
+   .vip__text {
+      
+      max-width: 311px;
+      margin-bottom: 70px;
+      font-size: 16px;
+      line-height: 1.2;
+   }
+   .vip__images {
+      display: none;
+   }
+   .slider {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 26px;
+      width: 311px;
+      height: 311px;
+   }
+   .hidden {
+      display: none;
+   }
+   .slider::before {
+      position: absolute;
+      content: '';
+      background: url('../img/vip-icon1.png') 0 0 / 100% no-repeat;
+      width: 200px;
+      height: 200px;
+      top: -80px;
+      right: -50px;
+      z-index: 2;
+   }
+   .slider img {
+      width: 100%;
+      border-radius: 60px;
+      object-fit: cover;
+   }
+   .controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+   }
+   .btn-next,
+   .btn-prev {
+      width: 50px;
+      height: 50px;
+      background: url('../img/arrow.svg') 0 0 / 100% no-repeat ;
+      background-color: #ffde40;
+      border-radius: 50%;
+   }
+   .btn-prev {
+      transform: rotate(180deg);
+   }
+   .ticket__items {
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 20px;
+   }
+   .page__ticket {
+      padding-top: 20px;
+      padding-bottom: 50px;
+   }
+   .item-ticket__title {
+      max-width: 300px;
+      margin-bottom: 22px;
+      font-size: 32px;
+      letter-spacing: -0.64px;
+   }
+   .ticket__item:nth-child(2) {
+      display: none;
+   }
+   .item-ticket__text {
+      max-width: 311px;
+      margin-bottom: 0px;
+      font-size: 16px;
+   }
+   .ticket__item:nth-child(3) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 311px;
+      height: 311px;
+      margin-bottom: 17px;
+   }
+   .ticket__item:nth-child(3) img {
+      max-width: 280px;
+      height: 280px;
+   }
+   .ticket__button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 27px;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      font-size: 18px;
+   }
+   .footer {
+      padding-top: 20px;
+      padding-bottom: 72px;
+   }
+   .footer__text {
+      font-size: 10px;
+   }
+}
